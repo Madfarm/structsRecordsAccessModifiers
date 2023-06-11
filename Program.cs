@@ -23,6 +23,7 @@ Dictionary<string, int> ourMenu = new Dictionary<string, int>()
 };
 
 firstRecord letsGo = new firstRecord(ourMenu);
+System.Console.WriteLine(letsGo);
 
 
 

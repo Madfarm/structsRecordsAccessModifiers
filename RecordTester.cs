@@ -16,7 +16,7 @@ public record firstRecord
 
         foreach (KeyValuePair<string, int> kvp in Menu)
         {
-            output += $"/${kvp.Value} - {kvp.Key}" + "\n";
+            output += $"${kvp.Value} - {kvp.Key}" + "\n";
         }
 
         return output;
