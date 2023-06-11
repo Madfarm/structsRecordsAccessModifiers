@@ -56,3 +56,6 @@ Good to use when:
 - need a value equality
 - immutable
 
+
+== is automatically changed to a value equality checker
+ToString() is overrided to return all public properties
