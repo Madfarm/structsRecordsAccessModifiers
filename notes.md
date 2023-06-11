@@ -46,3 +46,6 @@ Dictionary<string, int> ourMenu = new Dictionary<string, int>()
     { "Spice Cake", 12}
 };
 
+## Records
+Immutable structs
+
