@@ -22,8 +22,16 @@ Dictionary<string, int> ourMenu = new Dictionary<string, int>()
     { "Spice Cake", 12 }
 };
 
-firstRecord letsGo = new firstRecord(ourMenu);
-System.Console.WriteLine(letsGo);
+Dictionary<string, int> wowSoupMenu = new Dictionary<string, int>()
+{
+    { "Hot Dog", 20 },
+    { "Bong Water", 25 },
+    { "Spice Cake", 12 }
+};
+
+firstRecord lezGo =  new firstRecord(ourMenu);
+firstRecord letsGo = lezGo with { };
+System.Console.WriteLine(letsGo == lezGo);
 
 
 

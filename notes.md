@@ -59,3 +59,10 @@ Good to use when:
 
 == is automatically changed to a value equality checker
 ToString() is overrided to return all public properties
+
+the with operator lets you copy records
+
+an exact copy,
+firstRecord letsGo = lezGo with { };
+
+recordName nameOfRef = existingRecord with { changes go here };
