@@ -34,3 +34,15 @@ Static classes cannot be instantiated
 
 static members must be accessed via the class/struct name not the instance name, and no matter how many instances of that class/struct there are there is only one copy of that static property
 
+
+
+################## Side Note #########################
+dictionaries can be initialized with keys and values as such:
+
+Dictionary<string, int> ourMenu = new Dictionary<string, int>()
+{
+    { "Hot Dog", 20 },
+    { "Bong Water", 25},
+    { "Spice Cake", 12}
+};
+

@@ -18,7 +18,11 @@ Bob.Age = 2323;
 Dictionary<string, int> ourMenu = new Dictionary<string, int>()
 {
     { "Hot Dog", 20 },
-    { "Bong Water", 25},
-    { "Spice Cake", 12}
+    { "Bong Water", 25 },
+    { "Spice Cake", 12 }
 };
+
+firstRecord letsGo = new firstRecord(ourMenu);
+
+
 
