@@ -28,3 +28,9 @@ System.Console.WriteLine(Bob);
 
 output ========> My name is Bob and I am 2323 years old 
 
+
+## Static 
+Static classes cannot be instantiated 
+
+static members must be accessed via the class/struct name not the instance name, and no matter how many instances of that class/struct there are there is only one copy of that static property
+
