@@ -47,5 +47,12 @@ Dictionary<string, int> ourMenu = new Dictionary<string, int>()
 };
 
 ## Records
-Immutable structs
+Immutable structs/classes
+- provided with special syntax and behavior for working with data models
+
+The record modifier instructs the compiler to synthesize members that are useful for types whose primary role is storing data. These members include an overload of ToString() and members that support value equality.
+
+Good to use when:
+- need a value equality
+- immutable
 
