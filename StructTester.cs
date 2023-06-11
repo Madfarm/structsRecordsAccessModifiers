@@ -11,4 +11,6 @@ public struct firstStruct
 
     public string Name { get; set;}
     public int Age { get; set;}
+
+    public override string ToString() => $"My name is {Name} and I am {Age} years old";
 }
