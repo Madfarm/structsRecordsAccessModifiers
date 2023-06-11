@@ -4,3 +4,27 @@ Like a class but meant for smaller data-centric things
 
 
 get and set are accessors that allow to access and modify properties respectively
+
+overriding ToString() method will allow to control what is printed when that type is referenced
+
+public struct firstStruct 
+{
+    public firstStruct(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
+
+    public string Name { get; set;}
+    public int Age { get; set; }
+
+    public override string ToString() => $"My name is {Name} and I am {Age} years old";
+}
+
+
+firstStruct Bob = new firstStruct("Bob", 23);
+Bob.Age = 2323;
+System.Console.WriteLine(Bob);
+
+output ========> My name is Bob and I am 2323 years old 
+
